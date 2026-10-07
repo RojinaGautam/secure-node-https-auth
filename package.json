@@ -1,0 +1,19 @@
+{
+  "name": "secure-node-auth-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node backend/start-all.js",
+    "backend": "node backend/server.js",
+    "frontend": "node frontend/server.js",
+    "test": "node backend/poc-test.js",
+    "migrate": "node scripts/migrate-to-mongo.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "mongodb": "^6.21.0"
+  }
+}

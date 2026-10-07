@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+certs/*
+!certs/.gitkeep
+data/*
+!data/.gitkeep
+node_modules/
+tmp/
+output/evidence/*
+!output/evidence/*.png
+!output/evidence/.gitkeep
+output/pdf/review-*.png
+output/pdf/contact-sheet.png
+*.log
